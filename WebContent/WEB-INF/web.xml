@@ -1,0 +1,147 @@
+<web-app>
+
+<servlet>
+<servlet-class> CountryServlet </servlet-class>
+<servlet-name> cs </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> cs </servlet-name>
+<url-pattern> /caw1 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> CourseCategoryServlet </servlet-class>
+<servlet-name> ccs </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> ccs </servlet-name>
+<url-pattern> /caw2 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> StateServlet </servlet-class>
+<servlet-name> ss </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> ss </servlet-name>
+<url-pattern> /caw3 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> CourseServlet </servlet-class>
+<servlet-name> cos </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> cos </servlet-name>
+<url-pattern> /caw4 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> UserRegistrationServlet </servlet-class>
+<servlet-name> urs </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> urs </servlet-name>
+<url-pattern> /caw5 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> TrainerRequestProcessServlet </servlet-class>
+<servlet-name> trps </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> trps </servlet-name>
+<url-pattern> /caw6 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> LogInServlet </servlet-class>
+<servlet-name> ls </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> ls </servlet-name>
+<url-pattern> /caw7 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> LogOutServlet </servlet-class>
+<servlet-name> los </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> los </servlet-name>
+<url-pattern> /caw8 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> TopicServlet </servlet-class>
+<servlet-name> ts </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> ts </servlet-name>
+<url-pattern> /caw9 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> LectureServlet </servlet-class>
+<servlet-name> les </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> les </servlet-name>
+<url-pattern> /caw10 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> CourseAddServlet </servlet-class>
+<servlet-name> cas </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> cas </servlet-name>
+<url-pattern> /caw11 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> TutorialServlet </servlet-class>
+<servlet-name> tus </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> tus </servlet-name>
+<url-pattern> /caw12 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> QuizServlet </servlet-class>
+<servlet-name> qs </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> qs </servlet-name>
+<url-pattern> /caw13 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> AssignmentServlet </servlet-class>
+<servlet-name> as </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> as </servlet-name>
+<url-pattern> /caw14 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> ExamServlet </servlet-class>
+<servlet-name> es </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> es </servlet-name>
+<url-pattern> /caw15 </url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-class> EditQuizServlet </servlet-class>
+<servlet-name> eqs </servlet-name>
+</servlet>
+<servlet-mapping> 
+<servlet-name> eqs </servlet-name>
+<url-pattern> /caw16 </url-pattern>
+</servlet-mapping>
+
+</web-app>
